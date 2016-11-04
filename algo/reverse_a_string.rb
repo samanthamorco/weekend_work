@@ -3,7 +3,13 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-
+  counter = string.length
+  word = ""
+  while counter > 0
+    counter -= 1
+    word += string[counter]
+  end
+  word
 end
 
 # Driver code - don't touch anything below this line.
