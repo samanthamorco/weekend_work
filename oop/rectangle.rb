@@ -3,15 +3,15 @@
 
 class Rectangle
 
-  attr_reader :width, :length
+  attr_reader :width, :height
 
-  def initialize(width, length)
+  def initialize(width, height)
     @width = width
-    @length = length
+    @height = height
   end
 
   def area
-    @width * @length
+    @width * @height
   end
 
 end
